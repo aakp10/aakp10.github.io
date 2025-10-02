@@ -1,0 +1,218 @@
+html {
+  font-size: 62.5%
+}
+
+body {
+  font-size: 1.6rem;
+  color: #000;
+  font-family: 'JetBrains Mono', georgia, serif;
+  font-weight: 200;
+  background-color: #ffffff
+}
+
+b {
+  font-weight: 700
+}
+
+header {
+  border-bottom: 0.2rem solid #00594F
+}
+
+nav {
+  text-align: center
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+
+nav a {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #00594F;
+  text-decoration: none;
+  text-transform: uppercase
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 1.2rem 0;
+  border-top: 0.2rem solid #00594F;
+  font-size: 1.2rem;
+  color: #555
+}
+
+h1 {
+  font-size: 2.4rem;
+  color: #00594F
+}
+
+h2 {
+  font-size: 2rem;
+  color: #00594F
+}
+
+article .header {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #555
+}
+
+.logo a {
+  font-weight: bold;
+  color: #00594F;
+  text-decoration: none;
+  display: block
+}
+
+a {
+  color: #00594F;
+  text-decoration: none;
+  white-space: nowrap
+}
+
+.nav-new {
+  display: block
+}
+
+@media (max-width:319px) {
+  body {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%
+  }
+
+  header {
+    margin: 4.2rem 0
+  }
+
+  nav {
+    margin: 0 auto 3rem;
+    text-align: center
+  }
+
+  footer {
+    text-align: center
+  }
+
+  .logo {
+    text-align: center;
+    margin: 1rem auto 3rem;
+    display: block
+  }
+
+  .logo a {
+    font-size: 2.4rem;
+    display: block
+  }
+
+  nav a {
+    display: block;
+    line-height: 1.6
+  }
+
+  .nav-new {
+    display: block
+  }
+}
+
+@media (min-width:320px) {
+  body {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%
+  }
+
+  header {
+    margin: 4.2rem 0
+  }
+
+  nav {
+    margin: 0 auto 3rem;
+    text-align: center
+  }
+
+  footer {
+    text-align: center
+  }
+
+  .logo {
+    display: block;
+    text-align: center;
+    margin: 1rem auto 3rem
+  }
+
+  .logo a {
+    font-size: 2.4rem;
+    display: block
+  }
+
+  nav a {
+    display: inline;
+    margin: 0 0.6rem
+  }
+
+  .nav-new {
+    display: block
+  }
+}
+
+@media (min-width:640px) {
+  body {
+    width: 60%;
+    margin: 0 auto;
+    padding: 0
+  }
+
+  header {
+    margin: 0 0 3rem;
+    padding: 1.2rem 0 1.2rem 0
+  }
+
+  nav {
+    margin: 0;
+    padding: 2rem;
+    text-align: center
+  }
+
+  nav a {
+    margin: 0 0 0 5rem;
+    display: inline;
+    color: #00594F
+  }
+
+  footer {
+    text-align: center
+  }
+
+  .nav-new {
+    display: block
+  }
+
+  .logo {
+    margin: 0;
+    text-align: center;
+    display: block
+  }
+
+  .logo a {
+    display: block;
+    float: center;
+    font-size: 5rem;
+    color: #00594F
+  }
+}
+
+.news {
+  font-size: 2rem;
+  color: #000;
+  font-family: 'JetBrains Mono', georgia, serif;
+  background-color: #ffffff;
+  border-left-style: solid;
+  border-left-color: #00594F;
+  padding-left: 1%;
+  font-weight: 200
+}
